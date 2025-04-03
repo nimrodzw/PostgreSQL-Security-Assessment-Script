@@ -33,15 +33,15 @@ This script is designed to collect essential security-related information from a
 Clone this repository or download the postgres-assessment.sh script.
 
 ## Make the Script Executable:
-```bash
-chmod +x postgres-assessment.sh
+   ```bash
+   chmod +x postgres-assessment.sh
 
 
 ## Run the Script:
 ```bash
 sudo ./postgres-assessment.sh
 
-** The script will generate an output file at: **
+## The script will generate an output file at:
 AuditOutput/PostgreSQL-Output.txt
 
 ## Review and Share the Output:
