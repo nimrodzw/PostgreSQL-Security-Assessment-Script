@@ -36,6 +36,7 @@ Clone this repository or download the postgres-assessment.sh script.
 ```bash
 chmod +x postgres-assessment.sh
 
+
 ## Run the Script:
 ```bash
 sudo ./postgres-assessment.sh
