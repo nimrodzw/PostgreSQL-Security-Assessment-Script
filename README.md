@@ -1,13 +1,8 @@
-Here is a properly formatted single .md file that you can copy and paste directly into GitHub.
-
-markdown
-Copy
-Edit
 # PostgreSQL Security Assessment Script
 
 ## Description
 
-This script collects essential security-related information from a PostgreSQL database. It retrieves key details such as the PostgreSQL version, database listings, role definitions, schema details, and various system settings. The output is saved to a file for review and further analysis. This tool is ideal for administrators and security professionals looking to audit their PostgreSQL configurations.
+This script is designed to collect essential security-related information from a PostgreSQL database. It retrieves key details such as the PostgreSQL version, database listings, role definitions, schema details, and various system settings. The output is saved to a file for review and further analysis. This tool is ideal for administrators and security professionals looking to audit their PostgreSQL configurations.
 
 ## Features
 
@@ -26,46 +21,37 @@ This script collects essential security-related information from a PostgreSQL da
 
 ## Setup and Usage
 
-### 1. Login to Your Server  
-Log in with an admin account on the Linux server hosting your PostgreSQL database.
+1. **Login to Your Server:**  
+   Log in with an admin account on the Linux server hosting your PostgreSQL database.
 
-### 2. Switch to the Postgres User  
-```bash
-su - postgres
-3. Navigate to the Download Directory
-Before executing the script, navigate to the directory where you downloaded postgres-assessment.sh.
+2. **Switch to the Postgres User:**  
+   ```bash
+   su - postgres
 
-bash
-Copy
-Edit
-cd /path/to/your/download/directory
-4. Download the Script
+
+## Download the Script:
 Clone this repository or download the postgres-assessment.sh script.
 
-5. Make the Script Executable
-bash
-Copy
-Edit
-chmod +x postgres-assessment.sh
-6. Run the Script
-bash
-Copy
-Edit
-sudo ./postgres-assessment.sh
-7. Output File
-The script will generate an output file at:
+## Make the Script Executable:
+   ```bash
+   chmod +x postgres-assessment.sh
 
-Copy
-Edit
+
+## Run the Script:
+    ```bash
+    sudo ./postgres-assessment.sh
+
+## The script will generate an output file at:
 AuditOutput/PostgreSQL-Output.txt
-8. Review and Share the Output
+
+## Review and Share the Output:
 After execution, review the output file and send it back if necessary for further analysis or auditing.
 
-Contributing
+## Contributing
 Contributions are welcome! Feel free to fork this repository, make improvements, and submit pull requests.
 
-License
+## License
 This project is licensed under the MIT License.
 
-Contact
+## Contact
 For any issues or suggestions, please open an issue on GitHub or contact me via GitHub.
