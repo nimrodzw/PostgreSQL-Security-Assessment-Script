@@ -15,9 +15,9 @@
 #   2. Switch to the postgres user:
 #         su - postgres
 #   3. Ensure this script is executable:
-#         chmod +x postgres-assessment.sh
+#         sudo chmod +x postgres-assessment.sh
 #   4. Run the script:
-#         ./postgres-assessment.sh
+#         sudo ./postgres-assessment.sh
 #
 # Once executed, the script generates the file:
 #   AuditOutput/PostgreSQL-Output.txt
